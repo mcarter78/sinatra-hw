@@ -1,12 +1,15 @@
 class MyApp < Sinatra::Base
 
   get "/" do
-    erb "This is working"
+    erb "is this working?"
   end
 
-  post "/" do
-    erb "post made"
-  end
-
+  # get "/posts" do
+  #
+  # end
+  #
+  # post "/posts" do
+  #   erb :"posts"
+  # end
 
 end
